@@ -1,0 +1,37 @@
+li {
+  list-style-type: none;
+}
+
+@media (min-width: 768px) {
+  button {
+    color: #d4d2db;
+    background-color: #382f5a;
+    border: 1px solid #d4d2db;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 23px;
+    outline: none;
+    cursor: pointer;
+    width: 14vw;
+  }
+}
+
+@media (max-width: 767px) {
+  button {
+    color: #d4d2db;
+    background-color: #382f5a;
+    border: 1px solid #d4d2db;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 23px;
+    outline: none;
+    cursor: pointer;
+    width: 20vw;
+  }
+}
